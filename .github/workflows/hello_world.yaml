@@ -14,13 +14,19 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
+        with:
+          node-version: '16'
       - name: hello world
         run: echo "Hello World 001"
         shell: bash
+        with:
+          node-version: '16'
   goodbye:
     runs-on: ubuntu-latest
     steps:
       - name: goodbye world
         run: echo "Goodbye World 001"
         shell: bash
+         with:
+          node-version: '16'
 
