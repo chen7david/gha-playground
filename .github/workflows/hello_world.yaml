@@ -21,6 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: goodbye world
+      - uses: action/checkout@v2
         runs: echo "Goodbye World 001"
         shell: bash
 
