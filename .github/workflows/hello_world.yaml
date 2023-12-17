@@ -22,6 +22,6 @@ jobs:
     steps:
       - name: goodbye world
       - uses: action/checkout@v2
-        runs: echo "Goodbye World 001"
+        run: echo "Goodbye World 001"
         shell: bash
 
